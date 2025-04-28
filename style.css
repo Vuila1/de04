@@ -37,7 +37,8 @@ body {
 /* Banner */
 .banner img {
     width: 100%;
-    height: auto;
+    height: 400px; /* Giới hạn chiều cao */
+    object-fit: cover; /* Cắt hình cho đẹp */
 }
 
 /* Nội dung */
